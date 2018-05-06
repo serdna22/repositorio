@@ -1,0 +1,1 @@
+hola en este momento estoy editando el archivo con vim luego lo guardamos dando esc y luego :wq  sino queremos guardar le damos esc :q!
