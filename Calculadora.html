@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="ISO-8859-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CALCULADORA</title>
+        <meta name="description" content="MI PRIMER CALCULADORA.">
+      
+        <script type= "text/javascript"src="FuncionCal.js"></script>
+ </head>
+    <body>
+        <center>
+    <fieldset>
+        <label for="t1">Numero 1</label>
+        <br><br>
+        <input type="number" id="cajaTexto1" placeholder="Escribe el primer numero" size="15" maxlength="30">
+        <br><br>
+        <label for="t2">Numero 2</label>
+        <br><br>
+        <input type="number" id="cajaTexto2" placeholder="Aqui el segundo numero" >
+         <br><br>
+        <input type="submit" value="+" style="color:red" onclick="return suma()">
+        <input type="submit" value="-"  style="color:red" onclick="return resta()">
+         <input type="submit" value="*"  style="color:red" onclick="return multiplicacion();">
+         <input type="submit" value="/"  style="color:red" onclick="return division();">
+        <br><br>
+        <label for="t3">Resultado</label>
+        <br><br>
+        <input type="number" id="cajaTexto3" disabled="false">
+    </fieldset>
+        </center>
+    </body>
+    </html>
