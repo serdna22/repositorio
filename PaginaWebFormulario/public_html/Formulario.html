@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="DEBES ESTUDIAR MAS .">
+          <link rel="stylesheet" type="text/css" href="estilos.css">  
+        
+    </head>
+    <body>
+         <h4>hola q mas aca vamos a ver como podemos hacer una especie de caja con color y tambien centralisar</h4>                                                     
+        <form action="registrados.php" method="post">
+         <div> ingrese su nombre<br/> </div>
+         <input type="text" name="nombre" > <br/> 
+         ingrese su apellido<br/>
+         <input type="text" name="apellido" size="20"><br/>
+         elija el tipo de documento<br/>
+         <select name="tipo">
+             <option value="cedula">cedula</option>
+             <option value="tarjeta de identidad">tarjeta de identidad</option>
+             <option value="cedula extranjera">cedula extranjera</option>
+         </select><br>
+        ingrese su documento<br/>
+         <input type="number" name="documento" size="20"><br/>
+         ingrese su ciudad<br/>
+         <input type="text" name="ciudadderesidencia" size="20"><br/>
+        ingrese su contraseña <br/>
+         <input type="password" name="contraseña" size="20"><br/>
+         ingrese su departamento<br/>
+         <input type="password" name="departamento" size="20"><br/>
+         ingrese su fecha de nacimiento<br/>
+         <input type="date" name="fechadenacimiento" size="20"><br/>
+         ingrese ciudad de nacimiento<br/>
+         <input type="password" name="ciudaddenacimiento" size="20"><br/>
+         ingrese departamento de nacimiento<br/>
+         <input type="password" name="departamentodenacimiento" size="20"><br/>
+         <br>
+        <input type="button" value="pulse este boton" onclick="alert('¡has pulsado este boton!')">
+      
+        </form>
+    </body>
+</html>
