@@ -15,22 +15,44 @@
 
         <!-- Cabecera -->
         <header>
-            <img src="Imagenes/logo.png" width="300" height="200" alt="logo"  /> 
+            <img src="Imagenes/logo.png" width="300" height="150" alt="logo"  /> 
             <h1>Bienvenido a la pagina de Variedades Shekinah</h1>
-        </header>
-
-        <!-- Contenido -->
-        <section>
+        </header>            
+          <form name="form1" action="ServletA" method="post">
+            <input type="submit" value="Solicitar">
+        </form>
+        <br/>
+        <form name="form2" action="ServletB" method="post">
+           <div> ingrese su nombre<br/> </div>
+         <input type="text" name="nombre" > <br/> 
+         ingrese su apellido<br/>
+         <input type="text" name="apellido" size="20"><br/>
+         elija el tipo de documento<br/>
+         <select name="tipo">
+             <option value="cedula">cedula</option>
+             <option value="tarjeta de identidad">tarjeta de identidad</option>
+             <option value="cedula extranjera">cedula extranjera</option>
+         </select><br>
+        ingrese su documento<br/>
+         <input type="number" name="documento" size="20"><br/>
+         ingrese su ciudad<br/>
+         <input type="text" name="ciudad" size="20"><br/>
+        ingrese su contraseña <br/>
+         <input type="password" name="contraseña" size="20"><br/>
+         ingrese su departamento<br/>
+         <input type="password" name="departamento" size="20"><br/>
+         ingrese su fecha de nacimiento<br/>
+         <input type="date" name="fechadenacimiento" size="20"><br/>
+         ingrese ciudad de nacimiento<br/>
+         <input type="password" name="ciudaddenacimiento" size="20"><br/>
+         ingrese departamento de nacimiento<br/>
+         <input type="password" name="departamentodenacimiento" size="20"><br/>
+         <br>
             
-            <figure>
-                    <img src="Media/Koala.jpg" width="200" height="200" alt="foto"  />
-                    <figcaption>Figura: descipción foto</figcaption>
-            </figure>
+            <input type="submit" value="Ingresar">
             
-           
- 
-        </section>
-
+        </form>
+            
 
         <!-- Contenido relacionado-->
         <aside>
