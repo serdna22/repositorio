@@ -47,17 +47,17 @@ public class ServletB extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet ServletB</title>");            
+            out.println("<title>Transaccion Exitosa</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>El nombre es: " + nombre+ "</h1>");
             out.println("<h1>El apellido es: " + apellido+ "</h1>");
             out.println("<h1>El tipo de documento es : " + tipo+ "</h1>");
             out.println("<h1>El documento es: " + documento + "</h1>");
-            out.println("<h1>la ciudad es: " + contraseña + "</h1>");
-            out.println("<h1>la ciudad es: " + departamento + "</h1>");
-            out.println("<h1>la ciudad es: " + fechadenacimiento + "</h1>");
-            out.println("<h1>la ciudad es: " + ciudaddenacimiento + "</h1>");
+            out.println("<h1>la contraseña es: " + contraseña + "</h1>");
+            out.println("<h1>el departamento de nacimineto es es: " + departamento + "</h1>");
+            out.println("<h1>la fecha de nacimineto es: " + fechadenacimiento + "</h1>");
+            out.println("<h1>la ciudad de nacimineto es: " + ciudaddenacimiento + "</h1>");
             
             out.println("</body>");
             out.println("</html>");
