@@ -33,13 +33,17 @@ public class ServletB extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             
-            String apellido = request.getParameter("apellido");
+           String apellido = request.getParameter("apellido");
            String nombre = request.getParameter("nombre");
            String tipo = request.getParameter("tipo");
            String documento = request.getParameter("documento");
-            String ciudad = request.getParameter("ciudad");
-             String contraseña = request.getParameter("contraseña");
-             
+           String ciudad = request.getParameter("ciudad");
+           String contraseña = request.getParameter("contraseña");
+           String departamento = request.getParameter("departamento");
+           String fechadenacimiento = request.getParameter("fechadenacimiento");
+           String ciudaddenacimineto = request.getParameter("ciudaddenacimiento");
+           String ciudaddenacimiento = request.getParameter("ciudaddenacimiento");
+           String departamentodenacimiento = request.getParameter("departamentodenacimiento");
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -50,8 +54,11 @@ public class ServletB extends HttpServlet {
             out.println("<h1>El apellido es: " + apellido+ "</h1>");
             out.println("<h1>El tipo de documento es : " + tipo+ "</h1>");
             out.println("<h1>El documento es: " + documento + "</h1>");
-             out.println("<h1>la ciudad es: " + ciudad + "</h1>");
-             out.println("<h1>la contraseña es: " + contraseña + "</h1>");
+            out.println("<h1>la ciudad es: " + contraseña + "</h1>");
+            out.println("<h1>la ciudad es: " + departamento + "</h1>");
+            out.println("<h1>la ciudad es: " + fechadenacimiento + "</h1>");
+            out.println("<h1>la ciudad es: " + ciudaddenacimiento + "</h1>");
+            
             out.println("</body>");
             out.println("</html>");
         }
